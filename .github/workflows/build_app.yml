@@ -22,7 +22,7 @@ jobs:
         uses: onesoftqwq/dependency-walker-installer@v1.0
 
       - name: Build exe
-        run: pyside6-deploy --mode onefile --name my_app --force
+        run: pyside6-deploy --mode onefile --name my_app --force --console disable
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
