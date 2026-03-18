@@ -38,7 +38,7 @@ class RaspisanieDialog(QDialog):
         self.ui.comboBox_7_remove_line.setEnabled(True)
         print("====")
         query = QSqlQuery()
-        query.exec("INSERT INTO teachers (fullname) VALUES ('ТЫ НАЖАЛ НА КНОПКУ');")
+        query.exec("INSERT INTO teachers (fullname) VALUES ('ПРИВЕТ КАРИМ ЫЫЫЫЫ');")
         self.update_data()
         self.ui.comboBox_7_remove_line.addItems(["hello", "world", "lox"])
 
