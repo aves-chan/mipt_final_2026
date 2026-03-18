@@ -20,7 +20,8 @@ class RaspisanieDialog(QDialog):
         self.ui.pushButton_begin_courses_create.setAutoDefault(False)
         self.ui.pushButton_begin_courses_create.setDefault(False)
 
-        query = QSqlQuery("""select * from teachers""")
+        query = QSqlQuery()
+        query.exec("""select * from teachers""")
         while query.next():
             self.ui.comboBox_6_remove_table.addItem(query.value(1), query.value(0) * 100)
 
@@ -36,6 +37,9 @@ class RaspisanieDialog(QDialog):
         print(f"data {self.ui.comboBox_6_remove_table.currentData()}")
         self.ui.comboBox_7_remove_line.setEnabled(True)
         print("====")
+        query = QSqlQuery()
+        query.exec("INSERT INTO teachers (fullname) VALUES ('ТЫ НАЖАЛ НА КНОПКУ');")
+        self.update_data()
         self.ui.comboBox_7_remove_line.addItems(["hello", "world", "lox"])
 
 

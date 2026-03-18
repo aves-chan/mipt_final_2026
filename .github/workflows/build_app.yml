@@ -23,13 +23,10 @@ jobs:
 
       - name: Build exe
         run: pyside6-deploy --mode onefile --name my_app --force
-#        run: pyside6-deploy --mode standalone --name my_app --force
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: app
           path: my_app.exe
-#          name: app
-#          path: my_app.dist/**
           retention-days: 1
