@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9e42199-38d6-447e-b7bb-65df492d3a70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/mipt_final_2026.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mipt_final_2026.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postanovka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/записка_как_запускать" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raspisanie_dialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspisanie_dialog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
